@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: cornsilk;
+}
+
+header {
+  max-width: 400px;
+  background-color: rgb(230, 204, 134);
+  text-align: center;
+  margin: 0 auto;
+}
+
+nav {
+  max-width: 400px;
+  margin: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(196, 92, 52);
+}
+
+a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: rgb(208, 221, 202);
+}
+
+form {
+  max-width: 400px;
+  background-color: burlywood;
+  margin: 30px auto;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.fruits {
+  margin: 20px;
+  padding: 10px;
+  background-color: burlywood;
+}
+
+.fruits h4 {
+  color: cornflowerblue;
+}
+
+.fruit-list {
+  background-color: rgb(168, 130, 116);
+  margin: 10px;
+  padding: 20px;
+}
+
+.litchi {
+  color: cornsilk;
+}
+
+.banana {
+  color: crimson;
+}
+
+.strawberry {
+  color: darkblue;
+}
+
+.grapes {
+  color: rgb(0, 139, 74);
+}
+
+.apples {
+  color: rgb(139, 0, 46);
+}
+
+.mix-list {
+  background-color: darkolivegreen;
+  padding: 20px 0;
+}
+
+.mix-list ul {
+  background-color: darkorange;
+  margin: 30px;
+  padding-bottom: 20px;
+}
+
+.mix-list ol {
+  background-color: darkred;
+  margin: 10px 40px;
+  list-style-type: upper-roman;
+}
+
+.cube {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+  }
+  to {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.drinks {
+  margin: 30px;
+}
+
+.condiments {
+  margin-left: 20px;
+  visibility: hidden;
+}
+
+.drinks:hover .condiments {
+  visibility: visible;
+}
+
+.transition {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(49, 39, 39);
+  transition: width 2s, height 4s, background-color 3s;
+}
+
+.transition:hover {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
