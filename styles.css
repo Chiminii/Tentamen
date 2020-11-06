@@ -121,12 +121,12 @@ form {
   margin: 30px;
 }
 
-.condiments {
+.tea-types {
   margin-left: 20px;
   visibility: hidden;
 }
 
-.drinks:hover .condiments {
+.drinks:hover .tea-types {
   visibility: visible;
 }
 
@@ -141,4 +141,12 @@ form {
   width: 200px;
   height: 200px;
   background-color: green;
+}
+
+@media (max-width: 400px) {
+  li,
+  h4 {
+    font-size: larger;
+    font-weight: bold;
+  }
 }
